@@ -210,13 +210,12 @@ public class Order {
 	
 	
 	private static void displayMatrix(int[][] product) {
-        System.out.println("The Matrix is: ");
-        for(int[] row : product) {
-            for (int column : row) {
-                System.out.print(column + "    ");
-            }
-            System.out.println();
-        }
-    }
-
+		System.out.println("The Matrix is: ");
+		for(int[] row : product) {
+		    for (int column : row) {
+			System.out.print(column + "    ");
+		    }
+		    System.out.println();
+		}
+   	 }
 }
